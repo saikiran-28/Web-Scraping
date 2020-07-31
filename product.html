@@ -1,0 +1,33 @@
+<html>
+    <title>Paytm Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Ranga&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/text.css') }} ">
+   
+<body style = "background-color: orangered;">   
+
+    <form>
+        <div align = "center"><label style="background-color: powderblue;">List of Products</label></div>
+        <div align="center">
+        <textarea readonly align="center" id="field" placeholder="Type Here" maxlength="3000" rows="35" cols="90">{{df}}</textarea>
+        </div>
+        <br>
+        <div align = "center"><label style="background-color: powderblue;">Top 5 Deals</label></div>
+        <div align ="center">
+            
+            <textarea readonly align="center" id="field" placeholder="Type Here" maxlength="3000" rows="10" cols="90">{{top5}}</textarea>
+        </div>
+        <div align = "center"><label style="background-color: powderblue;">Deals between {{min}} and {{max}}</label></div>
+        <div align ="center">
+            
+            <textarea readonly align="center" id="field" placeholder="Type Here" maxlength="3000" rows="10" cols="90">{{rslt_df}}</textarea>
+        </div>
+             <div align = "center"><label style="background-color: powderblue;">{{name}}</label></div>
+        <div align ="center">
+            <br>
+            <br>
+            
+         <img src={{url1}} alt="Chart" height="500" width="1000">
+        </div>
+    
+    </form>
+</body></html>

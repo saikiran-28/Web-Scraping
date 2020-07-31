@@ -1,0 +1,24 @@
+
+body{
+  width:100%;height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  background:#13e723;
+  font-family:'Montserrat Alternates'
+}
+
+textarea{
+  padding:10px;
+  margin: 0 auto 10px; 
+  border:none ;font-size:25px;
+  font-family:'Times New Roman Georgia';
+  border-radius:10px;outline:none;
+  transition: box-shadow .3s ease
+}
+
+textarea:-ms-input-placeholder {color: #13e723}
+textarea::-moz-placeholder {color: #13e723}
+textarea::-webkit-input-placeholder {color: #13e723}
+
